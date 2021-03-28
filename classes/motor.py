@@ -13,7 +13,7 @@ class Motor(Device):
         pass
 
     def __str__(self):
-        return super(Motor, self).__str__() + f'Revolutions per sec: {self.revolutions_per_sec}\n'
+        return super().__str__() + f'Revolutions per sec: {self.revolutions_per_sec}\n'
 
     @property
     def revolutions_per_sec(self):
@@ -30,4 +30,3 @@ class Motor(Device):
             print("Revolution speed is high")
         else:
             print("Astanavites")
-

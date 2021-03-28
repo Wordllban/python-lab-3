@@ -11,8 +11,8 @@ if __name__ == '__main__':
     Motor(333.5, 3.6, 0.9, "Nice Motor", "Ukraine", 3228),
 
     Controller(230, 2.55, 0.76, "Arduino Mega", "USA", 28, 16, 10, True),
-    Controller(220, 2.55, 0.76, "Arduino Mega", "China", 28, 16, 10, True),
-    Controller(210, 2.55, 0.76, "Arduino Mega", "Vietnam", 28, 16, 10, True),
+    Controller(220, 2.55, 0.76, "Arduino Nano", "China", 28, 16, 10, True),
+    Controller(210, 2.55, 0.76, "Arduino NoName", "Vietnam", 28, 16, 10, True),
 
     Sensor(430, 2.66, 1.13, "Humidity Sensor", "China", SensorType.HUMIDITY),
     Sensor(430, 2.66, 1.13, "Sound Sensor", "USA", SensorType.SOUND),

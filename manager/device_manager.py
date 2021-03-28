@@ -4,7 +4,6 @@ from classes.controller import Controller
 from classes.device_type import DeviceType
 from classes.sensor_type import SensorType
 
-
 class DeviceManager:
     def __init__(self, devices=[]):
         self.__devices = devices
@@ -27,7 +26,7 @@ class DeviceManager:
 
         return sorted_devices
 
-    def sort_by_consumtion(self, reverse=False):
+    def sort_by_consumption(self, reverse=False):
         sorted_devices = sorted(self.__devices, key=lambda device: device.current_consumption_in_watts, reverse=reverse)
 
         return sorted_devices
